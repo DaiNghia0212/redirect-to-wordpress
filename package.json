@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://DaiNghia0212.github.io/redirect-to-wordpress/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
