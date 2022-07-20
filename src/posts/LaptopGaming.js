@@ -1,6 +1,18 @@
+import logo from "../logo.svg";
+import '../App.css';
+
 function LaptopGaming() {
-  window.location.href = 'https://gearhead1752.000webhostapp.com/laptop/acer-nitro-5';
-  return <h1>Loading...</h1>
+  // window.location.href = 'https://gearhead1752.000webhostapp.com/laptop/acer-nitro-5';
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          {"Welcome to Gear Head <3"}
+        </p>
+      </header>
+    </div>
+  );
 }
 
 export default LaptopGaming;
