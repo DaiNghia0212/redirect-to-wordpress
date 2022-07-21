@@ -2,7 +2,7 @@ import logo from "../logo.svg";
 import '../App.css';
 
 function LaptopGaming() {
-  // window.location.href = 'https://gearhead1752.000webhostapp.com/laptop/acer-nitro-5';
+  window.location.href = 'https://gearhead1752.000webhostapp.com/laptop/acer-nitro-5';
   return (
     <div className="App">
       <header className="App-header">
