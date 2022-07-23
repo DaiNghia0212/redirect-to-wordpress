@@ -7,6 +7,7 @@ import LaptopGaming from "./posts/LaptopGaming";
 import LaptopOffice from "./posts/LaptopOffice";
 import reportWebVitals from "./reportWebVitals";
 import AcerNitro5 from "./posts/AcerNitro5Eagle";
+import LogitechProX from "./posts/LogitechProX";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,7 +16,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="/laptop-acer-nitro" element={<LaptopGaming />} />
       <Route path="/acer-nitro-5-eagle" element={<AcerNitro5 />} />
-      <Route path="/laptop-msi-modern" element={<LaptopOffice />} />
+      <Route path="/logitech-pro-x" element={<LogitechProX />} />
       {/* <Route path="/laptop-msi-modern" element={<LaptopOffice />}/>
       <Route path="/laptop-msi-modern" element={<LaptopOffice />}/> */}
     </Routes>
