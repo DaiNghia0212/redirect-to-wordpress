@@ -9,6 +9,7 @@ import reportWebVitals from "./reportWebVitals";
 import AcerNitro5 from "./posts/AcerNitro5Eagle";
 import LogitechProX from "./posts/LogitechProX";
 import GamingMonitor from "./posts/GamingMonitor";
+import LogitechG610Orion from "./posts/LogitechG610Orion";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,6 +20,7 @@ root.render(
       <Route path="/acer-nitro-5-eagle" element={<AcerNitro5 />} />
       <Route path="/logitech-pro-x" element={<LogitechProX />} />
       <Route path="/gigabyte-g24f" element={<GamingMonitor />} />
+      <Route path="/logitech-g610-orion" element={<LogitechG610Orion />} />
       <Route path="/laptop-msi-modern" element={<LaptopOffice />} />
     </Routes>
   </BrowserRouter>
