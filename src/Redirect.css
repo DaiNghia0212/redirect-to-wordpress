@@ -7,11 +7,12 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#Gear-2 {
+  animation: App-logo-spin infinite 10s linear;
+  transform-origin: center;
+  transform-box: fill-box;
 }
+
 
 .App-header {
   background: radial-gradient(circle, #FC466B 0%, #000000 100%);

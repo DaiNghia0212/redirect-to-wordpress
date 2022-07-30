@@ -1,16 +1,16 @@
-import logo from "../web-icon-1.png";
+import {ReactComponent as ReactLogo} from "../GearHeadLogo.svg";
 import "../Redirect.css";
 import { useEffect } from "react";
 
 function Redirect({ url }) {
   useEffect(() => {
-    setTimeout(() => (window.location.href = url), 5000);
+    setTimeout(() => (window.location.href = url), 7000);
   }, [url]);
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <ReactLogo className="App-logo"/>
         <p>{"Welcome to GearHead <3"}</p>
       </header>
     </div>
