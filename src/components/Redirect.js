@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 function Redirect({ url }) {
   useEffect(() => {
-    setTimeout(() => (window.location.href = url), 7000);
+    setTimeout(() => (window.location.href = url), 5000);
   }, [url]);
 
   return (
