@@ -4,7 +4,7 @@ import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import LaptopGaming from "./posts/LaptopGaming";
-import LaptopOffice from "./posts/LaptopOffice";
+import MSIModern14 from "./posts/MSIModern14";
 import reportWebVitals from "./reportWebVitals";
 import AcerNitro5 from "./posts/AcerNitro5Eagle";
 import LogitechProX from "./posts/LogitechProX";
@@ -21,7 +21,7 @@ root.render(
       <Route path="/logitech-pro-x" element={<LogitechProX />} />
       <Route path="/gigabyte-g24f" element={<GamingMonitor />} />
       <Route path="/logitech-g610-orion" element={<LogitechG610Orion />} />
-      <Route path="/laptop-msi-modern" element={<LaptopOffice />} />
+      <Route path="/laptop-msi-modern-14" element={<MSIModern14 />} />
     </Routes>
   </BrowserRouter>
 );
